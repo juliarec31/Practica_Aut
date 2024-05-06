@@ -40,7 +40,7 @@
 // texto(n1, n2, t1);
 
 ///////////////////////////////////////////////////////
-var arrayNumber: number[] = [1, 2, 3];
+/*var arrayNumber: number[] = [1, 2, 3];
 var value: number;
 function readArray() {
     for (value of arrayNumber) {
@@ -61,17 +61,18 @@ function readArray() {
     }
 
 }
-readArray();
+readArray();*/
 
 ////////////////////////////////////////////////////
 
-/*var arrayNumber: number[] = [1, 2, 3];
+var arrayNumber: number[] = [1, 2, 3];
+var value: number;
 function lectura (){
-    for(let arrayNumber = 0; arrayNumber <=2; arrayNumber++){
-        console.log(arrayNumber);
+    for(let i = 0; i <=2; i++){
+        console.log(i + " + " + arrayNumber);
     }
 }
-lectura();*/
+lectura();
 
 
 
