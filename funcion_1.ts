@@ -65,11 +65,15 @@ readArray();*/
 
 ////////////////////////////////////////////////////
 
-var arrayNumber: number[] = [1, 2, 3];
-var value: number;
+//var arrayNumber: number[] = [1, 2, 3];
+//var value: number;
 function lectura (){
-    for(let i = 0; i <=2; i++){
-        console.log(i + " + " + arrayNumber);
+    for(let i = 1; i <=10; i++){
+        if(i % 2 === 0){
+            console.log(i);
+
+        }
+        //console.log(i);
     }
 }
 lectura();
