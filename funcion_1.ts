@@ -80,6 +80,7 @@ lectura();
 
 
 //Mensaje de prueba de Jose
+//Mensaje de practica Julian para merge
 
 
 
